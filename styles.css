@@ -1,0 +1,23 @@
+body {
+    background-color:rgba(217,216,214,.5);
+}
+
+.flex-logo {
+    margin-top: 50px;
+}
+
+.headline {
+    font-family: brandon-grotesque, sans-serif;
+    color: #143c57;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+p {
+    font-family: brandon-grotesque, sans-serif;
+    color: #143c57;
+    padding-top: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+}
