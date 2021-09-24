@@ -1,4 +1,5 @@
-body {
+/* CONSTRUCTION PAGE CSS */
+.construction-body {
     background-color:rgba(217,216,214,.5);
 }
 
@@ -20,4 +21,67 @@ p {
     font-size: 1.5em;
     text-transform: uppercase;
 
+}
+
+/* HOME PAGE */
+
+.container-fluid {
+    min-height: 100%;
+}
+
+body, html {
+    height: 100%;
+}
+
+.flex-headline {
+   
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.75em;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+   
+}
+
+.header {
+    background-image: linear-gradient(to right, #143c57, #3F738D);
+    padding: 50px;
+}
+
+.header-logo {
+    padding-left: 25px;
+}
+
+/* NAVIGATION */
+
+.nav {
+    padding-top: 50px;
+    font-family: brandon-grotesque, sans-serif;
+}
+
+.nav-link {
+    color: #143c57;
+    padding-right: 50px;
+    font-size: 1.75em;
+}
+
+.nav-link:hover {
+    color: #3F738D;
+    font-size: 2.5em;
+    padding-right: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #d9d8d6;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 25px;
 }
