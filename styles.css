@@ -14,13 +14,43 @@
     padding-top: 50px;
 }
 
-p {
+.p-con {
     font-family: brandon-grotesque, sans-serif;
     color: #143c57;
     padding-top: 50px;
     font-size: 1.5em;
     text-transform: uppercase;
 
+}
+
+.policy-link {
+    font-family: brandon-grotesque, sans-serif;
+    color:#143c57;
+    text-transform: uppercase;
+}
+
+.policy-link:hover {
+    text-decoration: none;
+    color:#143c57;
+}
+
+.policy-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.privacy-header {
+    font-family: brandon-grotesque, sans-serif;
+    color:#143c57;
+    text-transform: uppercase;
+
+}
+
+.privacy-policy {
+    font-family: brandon-grotesque, sans-serif;
+    color:#143c57;
+    text-align: justify;
+    /* font-size: 1.25em; */
 }
 
 /* HOME PAGE */
