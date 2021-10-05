@@ -77,11 +77,11 @@ body, html {
 
 .header {
     background-image: linear-gradient(to right, #143c57, #3F738D);
-    padding: 50px;
+    padding: 25px;
 }
 
 .header-logo {
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 /* NAVIGATION */
@@ -93,8 +93,8 @@ body, html {
 
 .nav-link {
     color: #143c57;
-    padding-right: 50px;
-    font-size: 1.75em;
+    padding-right: 75px;
+    font-size: 2em;
 }
 
 .nav-link:hover {
@@ -118,3 +118,64 @@ footer {
 
 /* flexDrive */
 
+video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flexDrive {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.headline {
+    text-align: center;
+    padding-top: 0px;
+    font-family: brandon-grotesque, sans-serif;
+}
+
+.content {
+    font-family: brandon-grotesque, sans-serif;
+    color: #143c57;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.25em;
+}
+
+.teslaImg {
+    padding: 30px;
+    width: 600px;
+}
+
+.subHeadline {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: brandon-grotesque, sans-serif;
+    color: #143c57;
+    text-transform: uppercase;
+}
+
+.appIcon {
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+
+}
+
+.stripe {
+    background-image: linear-gradient(to right, #143c57, #3F738D);
+    padding-top: 15px;
+}
+
+.stripeText{
+    text-transform: uppercase;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    padding-right: 30px;
+    color: white;
+    text-align: right;
+
+}
