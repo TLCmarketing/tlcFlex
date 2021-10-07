@@ -118,6 +118,14 @@ footer {
 
 /* flexDrive */
 
+div, .row {
+    margin-right: 0px;
+}
+
+div, .container-fluid {
+    padding: 0px;
+}
+
 video {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -141,15 +149,16 @@ video {
     padding-left: 100px;
     padding-right: 100px;
     font-size: 1.25em;
+    margin-bottom: 55px;
 }
 
 .teslaImg {
-    padding: 30px;
-    width: 600px;
+    padding: 10px;
+    width: 450px;
 }
 
 .subHeadline {
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 15px;
     text-align: center;
     font-family: brandon-grotesque, sans-serif;
@@ -167,6 +176,7 @@ video {
 .stripe {
     background-image: linear-gradient(to right, #143c57, #3F738D);
     padding-top: 15px;
+    margin: 0px;
 }
 
 .stripeText{
@@ -187,8 +197,8 @@ video {
 }
 
 .bikeImg {
-    padding: 35px;
-    width: 650px;
+    padding: 25px;
+    width: 550px;
     margin-left: 75px;
 }
 
@@ -199,6 +209,7 @@ video {
     text-align: left;
     color: #143c57;
     font-size: 3em;
+    margin-left: 55px;
 }
 
 .bikeContent {
@@ -211,16 +222,14 @@ video {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 400;
     padding: 10px;
-    padding-right: 30px;
+    padding-left: 30px;
     color: white;
     text-align: left;
 
 }
 
 .elecRow {
-    margin: 50px;
     margin-top: 35px;
-    padding: 25px;
 }
 
 .elecContent {
@@ -234,6 +243,8 @@ video {
 
 iframe {
     padding: 25px;
+    width: 560px;
+    height: 315px;
 }
 
 /* MEDIA QUERIES */
@@ -266,6 +277,34 @@ iframe {
     .header-logo {
         padding-left: 15px;
         width: 200px;
+    }
+
+    .bikeRow {
+        margin-top: 50px;
+        margin-right: 50px;
+        padding-bottom: 75px;
+    }
+    
+    .bikeImg {
+        padding: 35px;
+        width: 650px;
+        margin-left: 5px;
+    }
+
+    .elecRow {
+        margin: 10px;
+        margin-top: 35px;
+        padding: 10px;
+    }
+
+    .videoRow{
+        padding:0px;
+        margin: 0px;
+     
+    }
+
+    iframe {
+        padding: 10px;
     }
  }
 
@@ -344,7 +383,7 @@ iframe {
     }
  }
 
-@media (min-width: 1400px) 
+@media (min-width: 1400px) and (max-width: 1899.98px)
 { 
     .flex-headline {
    
@@ -366,4 +405,82 @@ iframe {
     .header-logo {
         padding-left: 30px;
     }
+
+    .content {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        padding-top: 15px;
+        padding-left: 75px;
+        padding-right: 75px;
+        font-size: 1.25em;
+    }
+
+    .teslaImg {
+        padding: 0px;
+        width: 450px;
+    }
+
+    .noStripe {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .stripe {
+        background-image: linear-gradient(to right, #143c57, #3F738D);
+        padding-top: 15px;
+        padding-right: 0px;
+    }
+    
+    .stripeText{
+        text-transform: uppercase;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        padding: 10px;
+        padding-right: 30px;
+        color: white;
+        text-align: right;
+    
+    }
+
+    .bikeImg {
+        padding: 0px;
+        width: 550px;
+        margin-left: 55px;
+    }
+
+    .bikeRow {
+        margin-top: 50px;
+        margin-right: 35px;
+        padding-bottom: 75px;
+    }
+
+    .stripeText2{
+        text-transform: uppercase;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        padding: 10px;
+        padding-left: 10px;
+        color: white;
+        text-align: left;
+    
+    }
+
+    .elecRow {
+        margin-top: 35px;
+        margin-right: 0px;
+    }
+    
+
+    .videoRow{
+        padding:15px;
+    }
+
+    iframe {
+        padding: 25px;
+        width: 530px;
+        height: 285px;
+        margin-left: -15px;
+    }
+
+
  }
