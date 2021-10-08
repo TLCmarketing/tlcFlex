@@ -159,7 +159,7 @@ video {
 
 .teslaImg {
     padding: 10px;
-    width: 450px;
+    width: 525px;
 }
 
 .subHeadline {
@@ -200,19 +200,19 @@ video {
 }
 
 .bikeRow {
-    margin-top: 50px;
+    margin-top: 75px;
     margin-right: 50px;
     padding-bottom: 75px;
 }
 
 .bikeImg {
-    padding: 20px;
+    /* padding: 20px; */
     width: 600px;
     /* margin-left: 75px; */
 }
 
 .headline2 {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     text-transform: uppercase;
     font-family: brandon-grotesque, sans-serif;
     text-align: left;
@@ -223,6 +223,7 @@ video {
 
 .bikeContent {
     padding-top: 10px;
+    font-size: 1.25em;
     line-height: 170%;
     margin-left: 20px;
     font-family: brandon-grotesque, sans-serif;
@@ -380,7 +381,7 @@ iframe {
     }
     
     .header-logo {
-        padding-left: 30px;
+        padding-left: 15px;
     }
 
     .flexDrive {
@@ -420,6 +421,14 @@ iframe {
         width: 300px;
     }
 
+    .appIcon {
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 45px;
+    
+    }
+    
+
     .stripeText{
         text-transform: uppercase;
         font-family: brandon-grotesque, sans-serif;
@@ -449,7 +458,7 @@ iframe {
     }
 
     .headline2 {
-        padding-top: 20px;
+        /* padding-top: 20px; */
         text-transform: uppercase;
         font-family: brandon-grotesque, sans-serif;
         text-align: left;
@@ -465,7 +474,7 @@ iframe {
     }
 
     .bikeRow {
-        margin-top: 25px;
+        margin-top: 45px;
         margin-right: 15px;
         padding-bottom: 45px;
     }
@@ -566,7 +575,7 @@ iframe {
     }
 
     .headline2 {
-        padding-top: 20px;
+        /* padding-top: 20px; */
         text-transform: uppercase;
         font-family: brandon-grotesque, sans-serif;
         text-align: left;
@@ -591,6 +600,7 @@ iframe {
         padding-top: 10px;
         line-height: 170%;
         margin-left: 40px;
+        font-size: 1.15em;
     }
     .elecRow {
         margin-top: 35px;
@@ -687,7 +697,7 @@ iframe {
     }
 
     .bikeRow {
-        margin-top: 50px;
+        margin-top: 60px;
         margin-right: 35px;
         padding-bottom: 75px;
     }
