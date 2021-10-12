@@ -274,7 +274,7 @@ iframe {
         font-family: brandon-grotesque, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.95em;
+        font-size: 1.40em;
         text-transform: uppercase;
         color: white;
         text-align: left;
@@ -287,12 +287,12 @@ iframe {
     }
     
     .header-logo {
-        padding-left: 15px;
+        padding-left: 10px;
         width: 200px;
     }
 
     .nav {
-        padding-top: 30px;
+        padding-top: 15px;
         font-family: brandon-grotesque, sans-serif;
     }
     
@@ -330,6 +330,7 @@ iframe {
         text-align: center;
         padding-top: 0px;
         font-family: brandon-grotesque, sans-serif;
+        font-size: 1.75em;
     }
     
     .content {
@@ -350,9 +351,19 @@ iframe {
     }
 
     .teslaImg {
-        padding: 0px;
-        width: 225px;
+        padding: 10px;
+        width: 425px;
         margin: 0px;
+    }
+
+    .subHeadline {
+        margin-top: 35px;
+        margin-bottom: 15px;
+        text-align: center;
+        /* font-size: 1.35em; */
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
     }
 
     .appIcon {
@@ -372,7 +383,7 @@ iframe {
         padding-bottom: 10px;
         padding-right: 20px;
         color: white;
-        text-align: right;
+        text-align: center;
     
     }
 
@@ -380,13 +391,13 @@ iframe {
         text-transform: uppercase;
         font-family: brandon-grotesque, sans-serif;
         font-weight: 400;
-        font-size: 1.05em;
+        font-size: 1.25em;
         padding-top: 5px;
         padding-left: 10px;
         padding-bottom: 10px;
         padding-right: 20px;
         color: white;
-        text-align: left;
+        text-align: center;
     
     }
 
@@ -394,17 +405,35 @@ iframe {
         /* padding-top: 20px; */
         text-transform: uppercase;
         font-family: brandon-grotesque, sans-serif;
-        text-align: left;
+        text-align: center;
         color: #143c57;
         font-size: 1.75em;
         margin-left: 10px;
+    
     }
     
     .bikeImg {
-        padding: 35px;
+        padding: 0px;
         padding-top: 0px;
-        width: 550px;
-        margin-left: 5px;
+        width: 425px;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+
+    .bikeRow {
+        margin-top: 45px;
+        margin-right: 0px;
+        padding-bottom: 15px;
+    }
+
+    .bikeContent {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 150%;
+        margin-left: 0px;
+        font-size: 1em;
+        text-align: center;
     }
 
     .elecRow {
