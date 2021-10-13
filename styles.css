@@ -172,7 +172,8 @@ video {
 }
 
 .appIcon {
-    padding-right: 25px;
+    padding-right: 20px;
+    padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 75px;
 
@@ -262,9 +263,187 @@ iframe {
 /* MEDIA QUERIES */
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) 
+@media (min-width: 320px) and (max-width: 575.98px) 
 { 
+    .flex-headline {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.15em;
+        text-transform: uppercase;
+        color: white;
+        text-align: left;
+       
+    }
+    
+    .header {
+        background-image: linear-gradient(to right, #143c57, #3F738D);
+        padding: 15px;
+    }
+    
+    .header-logo {
+        padding-left: 5px;
+        width: 85px;
+    }
+
+    .nav {
+        padding-top: 15px;
+        font-family: brandon-grotesque, sans-serif;
+    }
+    
+    .nav-link {
+        color: #143c57;
+        padding-right: 20px;
+        font-size: 1em;
+    }
+    
+    .nav-link:hover {
+        color: #3F738D;
+        font-size: 1.5em;
+        padding-right: 15px;
+    }
+
+    .flexDrive {
+        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .flexDriveLogo {
+        width: 250px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    video {
+    padding-bottom: 20px;
+    padding-top: 15px;
+    }
+
+    .headline {
+        text-align: center;
+        padding-top: 0px;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.75em;
+    }
+    
+    .content {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: .85em;
+        margin-bottom: 35px;
+    }
+
+
+    .teslaImg {
+        padding: 10px;
+        width: 300px;
+        margin: 0px;
+    }
+
+    .subHeadline {
+        margin-top: 35px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 1.25em;
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
+    }
+
+    .appIcon {
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    
+    }
+
+    .stripeText{
+        text-transform: uppercase;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        color: white;
+        text-align: center;
+    
+    }
+
+    .stripeText2{
+        text-transform: uppercase;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        color: white;
+        text-align: center;
+    
+    }
+
+    .headline2 {
+        /* padding-top: 20px; */
+        text-transform: uppercase;
+        font-family: brandon-grotesque, sans-serif;
+        text-align: center;
+        color: #143c57;
+        font-size: 1.75em;
+        margin-left: 10px;
+    
+    }
+
+    .bikeImg {
+        padding: 0px;
+        padding-top: 0px;
+        width: 225px;
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+
+    .bikeRow {
+        margin-top: 45px;
+        margin-right: 0px;
+        padding-bottom: 15px;
+    }
+
+    .bikeContent {
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 150%;
+        margin-left: 0px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .elecRow {
+        /* margin: 10px; */
+        margin-top: 35px;
+        margin-right: 0px;
+        padding: 10px;
+    }
+
+    .videoRow{
+        padding:0px;
+        margin: 0px;
      
+    }
+
+    iframe {
+        padding: 15px;
+        width: 250px;
+        height: 155px;
+        /* margin-left: -25px; */
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -343,12 +522,12 @@ iframe {
         margin-bottom: 35px;
     }
 
-
+/* 
     .bikeRow {
         margin-top: 50px;
         margin-right: 50px;
         padding-bottom: 75px;
-    }
+    } */
 
     .teslaImg {
         padding: 10px;
@@ -437,8 +616,9 @@ iframe {
     }
 
     .elecRow {
-        margin: 10px;
+        /* margin: 10px; */
         margin-top: 35px;
+        margin-right: 0px;
         padding: 10px;
     }
 
@@ -454,7 +634,7 @@ iframe {
         padding: 15px;
         width: 500px;
         height: 355px;
-        /* margin-left: -15px; */
+        /* margin-left: -25px; */
     }
  }
 
