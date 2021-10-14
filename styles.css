@@ -341,7 +341,7 @@ iframe {
 
     .teslaImg {
         padding: 10px;
-        width: 300px;
+        width: 285px;
         margin: 0px;
     }
 
@@ -397,21 +397,22 @@ iframe {
         text-align: center;
         color: #143c57;
         font-size: 1.75em;
-        margin-left: 10px;
+        margin-left: 0px;
     
     }
 
     .bikeImg {
         padding: 0px;
         padding-top: 0px;
-        width: 225px;
+        width: 250px;
         margin-left: 0px;
         margin-bottom: 25px;
     }
 
     .bikeRow {
-        margin-top: 45px;
+        margin-top: 25px;
         margin-right: 0px;
+        padding-right: 0px;
         padding-bottom: 15px;
     }
 
@@ -421,14 +422,15 @@ iframe {
         padding-right: 10px;
         line-height: 150%;
         margin-left: 0px;
-        font-size: 1em;
+        font-size: .85em;
         text-align: center;
     }
 
     .elecRow {
         /* margin: 10px; */
-        margin-top: 35px;
+        margin-top: 20px;
         margin-right: 0px;
+        margin-left: 0px;
         padding: 10px;
     }
 
@@ -440,8 +442,8 @@ iframe {
 
     iframe {
         padding: 15px;
-        width: 250px;
-        height: 155px;
+        width: 285px;
+        height: 200px;
         /* margin-left: -25px; */
     }
 }
